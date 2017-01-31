@@ -1,0 +1,6 @@
+#caf07d = Vert semi-clair
+#f08f68 = rouge-orangé = boutons
+#111111 = noir = footer et sponsor partenaires
+#b4b4b2 = gris = background ( à testez)
+#e1d8c9 = beige-gris ( à testez dans le background)
+

@@ -4,3 +4,4 @@
 #b4b4b2 = gris = background ( à testez)
 #e1d8c9 = beige-gris ( à testez dans le background)
 #21FF76 = vert spotify.
+#fb351b = orange foncé soundclound

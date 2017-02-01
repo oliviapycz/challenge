@@ -138,3 +138,52 @@ body{
 
 
 }
+/*FOOTER*/
+}
+footer{
+  width: 100%;
+  bottom: 0;
+  background-color: #000000;
+}
+.text-footer{
+  color: #FFFFFF;
+}
+.img-sponsor{
+  width:120px;
+}
+table{
+  width: 100%;
+  border-bottom: solid 1px #FFFFFF;
+  padding-bottom: 20px;
+}
+.inline{
+	display: inline-block;
+justify-content: space-around;
+
+}
+.text-center{
+	text-align: center;
+}
+.display{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+a.lien-reseau-social{
+	text-decoration: none;
+	color: #21FF76;
+}
+a.lien-reseau-social:hover{
+	text-decoration: underline;
+	color: #fb351b;
+}
+.drapeau{
+  width: 15px;
+}
+.margin-reseau-sociaux{
+  margin-top: 50px;
+}
+.margin-langue{
+  margin-top: 20px;
+}

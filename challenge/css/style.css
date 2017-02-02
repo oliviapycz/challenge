@@ -199,3 +199,10 @@ a.lien-reseau-social:hover{
 .margin-langue{
   margin-top: 20px;
 }
+audio{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #21FF76;
+  z-index: 500;
+}

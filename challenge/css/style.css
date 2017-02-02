@@ -189,6 +189,9 @@ a.lien-reseau-social:hover{
 	text-decoration: underline;
 	color: #fb351b;
 }
+a.lien-langues{
+  text-decoration: none;
+}
 .drapeau{
   width: 15px;
 }

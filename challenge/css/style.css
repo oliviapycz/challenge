@@ -150,7 +150,7 @@ display: inherit;
 
 
 .wrapper{
-  background-image: url("piano.jpg");
+  background-image: url(../gallery/"piano.jpg");
   width: 100%;
   height: 100vh;
   display: flex;
@@ -203,7 +203,7 @@ display: inherit;
   flex-direction: row;
   background-attachment: fixed;
   margin-top:450px;
-
+  margin-bottom: 5px;
 }
 
 .pic{

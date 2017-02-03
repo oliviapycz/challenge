@@ -14,32 +14,86 @@ html, body {
 
 header{
   margin: auto;
-background: url("SD.jpg");
-background-size: cover;
-width: 100%;
-height: 18px;
+  background-size: cover;
+  width: 100%;
+  height: 18px;
 }
+.text-head{
+  display: inline-flex;
+  margin-top: 80px;
+  margin-left: 60px;
+  text-align: center;
+
+
+}
+.log{
+display: flex;
+width: 200px;
+margin: 20px;
+margin-top: -50px;
+}
+  /*BARRE DE RECHERCHE*/
+  #searchthis #search-btn {
+    color: #21FF76;
+    padding: 5px 7px;
+  }
+  #search {
+    width: 700px;
+    color: #fb351b;
+    margin-left: 20px;
+    padding: 5px 7px;
+  }
+  form{
+    z-index: 500;
+    position: absolute;
+    margin-top: -60px;
+  }
+  /*BARRE DE RECHERCHE*/
+
 .container75{
   display: inline-block;
-margin: auto;
-width: 100%;
+  margin: auto;
+  width: 100%;
 }
+.container80{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
 
+}
 .headerprincipal{
+  background-image: url(../gallery/festival.jpg);
   color: #fff;
-position: relative;
-overflow: hidden;
-border-top: 4px solid #f50;
-background-color: #666;
-height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid #f50;
+  background-color: #666;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
 }
 
+.menu{
+  margin: 0px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu li {
+  display: flex;
+  padding: 0 10px 0 10px;
+}
 .signin{
   position: absolute;
 top: 20px;
 right: 30px;
 }
-
 .boutongo{
   width: 75px;
   height: 30px;
@@ -55,7 +109,6 @@ right: 30px;
   border: 0.14em solid white;
   transition: 0.2s;
 }
-
 .boutondr{
   width: auto;
   height: 30px;
@@ -64,7 +117,6 @@ right: 30px;
   border-style: none;
   border-radius: 5px;
   color: #fff;
-
 }
 #MAO {
   position: fixed; right: 0; bottom: 0;
@@ -84,7 +136,6 @@ height: 34%;
 width: 100%;
 margin-top: 16em;
 }
-
 #Entrer{
   text-align: center;
   font-size: 28px;
@@ -102,6 +153,8 @@ display: inherit;
   display: flex;
   flex-direction: row;
   background-attachment: fixed;
+  margin-top:450px;
+
 }
 
 .pic{
@@ -111,6 +164,8 @@ display: inherit;
   filter: opacity(70%);
   width: 70%;
   height: 100vh;
+  margin-top: 6px;
+
 }
 
 .container2{
@@ -120,6 +175,7 @@ display: inherit;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .txt{
@@ -314,17 +370,8 @@ display: inherit;
 
 }
 
-/*BARRE DE RECHERCHE*/
-#searchthis #search-btn {
-color: #21FF76;
-padding: 5px 7px;
-}
-#search {
-  width: 700px;
-  color: #fb351b;
-  margin-left: 20px;
-  padding: 5px 7px;
-}
+
+
 /*FOOTER*/
 
 footer{
@@ -367,6 +414,7 @@ a.lien-reseau-social:hover{
 a.lien-langues{
   text-decoration: none;
 }
+/*FOOTER*/
 
 /*Page3*/
 
@@ -459,4 +507,3 @@ audio{
   background-color: #21FF76;
   z-index: 500;
 }
-

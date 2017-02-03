@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+}
+
+header{
+margin: auto;
+background-size: cover;
+width: 100%;
+height: 18px;
+}
+.container{
+display: inline-block;
+margin: auto;
+width: 100%;
+}
+
+.menu{
+  margin: 0px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu li {
+  display: flex;
+  padding: 0 10px 0 10px;
+}
+
+.headerprincipal{
+  background-image: url(festival.jpg);
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+border-top: 4px solid #f50;
+background-color: #666;
+height: 60vh;
+}
+
+.signin{
+  position: absolute;
+top: 20px;
+right: 30px;
+}
+
+.boutongo{
+  width: 75px;
+  height: 30px;
+  background-color: inherit;
+  border-style: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.boutongo:hover{
+  border: 0.14em solid white;
+  transition: 0.2s;
+}
+
+.boutondr{
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ff60dd;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+
+}

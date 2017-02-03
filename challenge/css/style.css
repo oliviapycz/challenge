@@ -73,7 +73,7 @@ right: 30px;
   background-size: cover;
 }
 #footermao{
-background-image: url(../gallery/Music-lab.png);
+background-image: url("Musiclab.png");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -95,8 +95,6 @@ margin-top: 16em;
   margin-top: 300px;
 display: inherit;
 }
-
-/*STUDIO*/
 /*page*/
 .container{
   width: 100%;
@@ -192,6 +190,60 @@ display: inherit;
   border: 2px solid rgba(160, 111, 77, 0.5);
   color: rgba(160, 111, 77, 0.5);
 }
+
+/************Page4*************/
+.container4{
+  background-color: rgb(43, 45, 56);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shazaam{
+  background-color: red;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shazaam h1{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif
+}
+
+.shazaam p{
+  text-align: center;
+}
+
+.lorem1{
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.lorem2{
+  font-size: 12px;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+}
+
+.element
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 
 /*Page 2*/
@@ -407,3 +459,4 @@ audio{
   background-color: #21FF76;
   z-index: 500;
 }
+

@@ -23,7 +23,7 @@ header{
   margin-top: 80px;
   margin-left: 60px;
   text-align: center;
-
+ font-family: 'Quicksand', sans-serif;
 
 }
 .log{
@@ -492,6 +492,7 @@ justify-content: space-around;
 }
 .text-center{
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
 .display{
   display: flex;

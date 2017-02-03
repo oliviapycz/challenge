@@ -193,32 +193,34 @@ display: inherit;
 
 /************Page4*************/
 .container4{
-  background-color: rgb(43, 45, 56);
+  background-image: url(../gallery/voice2.png);
   width: 100%;
   height: 100vh;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .shazaam{
-  background-color: red;
   width: 50%;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .shazaam h1{
   text-align: center;
-  font-family: 'Quicksand', sans-serif
+  font-family: 'Quicksand', sans-serif;
+  color: #D7596F;
 }
 
 .shazaam p{
   text-align: center;
 }
+
 
 .lorem1{
   font-size: 40px;
@@ -242,6 +244,241 @@ display: inherit;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+}
+
+.element button{
+  transition: 0.3s;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  color: white;
+  border-style: none;
+  background-color: inherit;
+  border: 2px solid #D7596F;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes pulse {
+
+  0%{width: 100px;
+      height: 100px;
+  }
+
+  50%{
+    width: 110px;
+    height: 110px;
+  }
+
+  100%{
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+.element button:hover{
+  transition: 0.3s;
+  box-shadow: 0px 0px 71px 51px rgb(215, 91, 111) inset;
+}
+
+
+/*Page 2*/
+.green{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(33, 255, 118);
+  background-attachment: fixed;
+}
+
+.container3{
+  background-image: url(../gallery/event.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.text{
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text h1{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(33, 255, 118);
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.text p{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.font{
+  font-size: 30px;
+}
+
+.font2{
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.text button{
+    width: 180px;
+    height: 50px;
+    background-color: inherit;
+    border-style: none;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+}
+
+.text button:hover{
+  transition: 0.2s;
+  background-color: rgb(33, 255, 118);
+
+
+}
+
+/*BARRE DE RECHERCHE*/
+#searchthis #search-btn {
+color: #21FF76;
+padding: 5px 7px;
+}
+#search {
+  width: 700px;
+  color: #fb351b;
+  margin-left: 20px;
+  padding: 5px 7px;
+}
+/*FOOTER*/
+
+footer{
+  width: 100%;
+  background-color: #000000;
+}
+.text-footer{
+  color: #FFFFFF;
+}
+.img-sponsor{
+  width:120px;
+}
+table{
+  width: 100%;
+  border-bottom: solid 1px #FFFFFF;
+  padding-bottom: 20px;
+}
+.inline{
+	display: inline-block;
+justify-content: space-around;
+
+}
+.text-center{
+	text-align: center;
+}
+.display{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+a.lien-reseau-social{
+	text-decoration: none;
+	color: #21FF76;
+}
+a.lien-reseau-social:hover{
+	text-decoration: underline;
+	color: #fb351b;
+}
+a.lien-langues{
+  text-decoration: none;
+}
+
+/*Page3*/
+
+.chose{
+  background-image: url(../gallery/chose.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: 0px 0px 72px 4px rgba(251, 53, 27, 0.19) inset;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text2{
+    width: 80%;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+  width: 80%;
+  height: 30vh;
+}
+
+.icon img{
+  width: 100px;
+}
+
+.text2 h1{
+  font-size: 35px;
+  color: rgb(251, 53, 27);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.chose p{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  font-size: 21px;
+  line-height: 28px;
+  width: 800px;
+  color: white;
+}
+
+.button3{
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.button3 button{
+  font-size: 20px;
+  background-color: inherit;
+  width: 200px;
+  height: 60px;
+  color: white;
+  border-style: none;
+  border: 3px solid rgb(251, 53, 27);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button3 button:hover{
+  transition: 0.3s;
+  background-color: #ECF8F9;
+  color: rgb(251, 53, 27);
+  border: 1px solid rgb(251, 53, 27);
 }
 
 

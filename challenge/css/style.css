@@ -63,7 +63,7 @@ margin-top: -50px;
   overflow: hidden;
   border-top: 4px solid #f50;
   background-color: #666;
-  height: 80vh;
+  height: 82vh;
   background-size: cover;
   background-position: center;
 }
@@ -114,6 +114,10 @@ right: 30px;
   border-radius: 5px;
   color: #fff;
 }
+.smoothscroll{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
 #MAO {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
@@ -143,8 +147,20 @@ margin-top: 16em;
 display: inherit;
 }
 
-
-
+.topscroll{
+  border: 2px solid #fb351b;
+  border-top-left-radius: 5px;
+  right: 0;
+  background-color: #fb351b;
+  position: fixed;
+  z-index: 5;
+  width: 30px;
+  text-align: right;
+  box-shadow: 10px 10px 5px #888888;
+}
+.arrow-top{
+  color: #21ff76;
+}
 .wrapper{
   background-image: url(../gallery/formation.jpg);
   width: 100%;
@@ -218,8 +234,9 @@ display: inherit;
   background-position: center;
   filter: opacity(70%);
   width: 70%;
-  height: 100vh;
-
+  height: 101vh;
+  margin-top: -5px;
+  z-index: -1;
 }
 
 .container2{
